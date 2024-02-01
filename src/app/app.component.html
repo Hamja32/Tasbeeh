@@ -1,0 +1,46 @@
+<!-- 
+<h1> App component : Parent component</h1> -->
+<!-- Parent component : <input type="text" #PComponent (keyup)="0"> -->
+<!-- 
+@if(true){
+    <div class="container">
+      <h1>This is a container with true value </h1>
+    </div>
+} -->
+<!-- @if(false){
+   
+} -->
+
+<div class="big">
+<div class="main">
+    <!-- <div class="counter"> -->
+      
+    <div class="box">
+        <b style="color: white;">Tasbeeh Counter</b>
+        <h3 style="font-size: 40px;">{{number}}</h3>
+        
+    <button (click) ="counter()" class="add">Subhanallah</button>
+    <button (click) ="reset()" class="del">Reset</button>
+
+    </div>
+    <div class="output">
+
+        @if(isTasbeehCompleted){
+           
+            <img src="../assets/mashallah.jpg" width="140px" height="140px" style="border-radius: 5px;">
+            <!-- <button (click) ="logout()">Log Out</button> -->
+       
+    }@else{
+   
+            <h2 class="success">Let's do it</h2>
+            <!-- <button (click) ="login()">Log in</button> -->
+ 
+    }
+
+    </div>
+<!-- </div> -->
+</div>
+</div>
+
+<!-- <app-test [Pdata] = "PComponent.value"></app-test> -->
+<!-- <app-test></app-test> -->

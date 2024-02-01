@@ -1,0 +1,92 @@
+
+h1{
+    background-color: orange;
+    text-align: center;
+}
+.container{
+    background-image: linear-gradient(180deg, #bb3939, #b9dbc3);
+    height: 300px;
+}
+
+.success{
+   /* background-color: blue; */
+   color: white;
+   text-align: center;
+   padding: 8px;
+   border-radius: 4px;
+   font-size: 40px;
+}
+.main{
+    display: flex;
+}
+/* .counter{
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: #bb3939;
+    color: white;
+    border-radius: 10px;}
+    /* object-fit: cover; */
+
+.box{
+    /* place-items: center;
+    display: grid; */
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(70deg, #db5050, #db0abf, #3c9ecc);
+    /* background-color: black; */
+    border-radius: 5px;
+    color:black;
+    height: auto;
+    width: 135px;
+    border: 2px solid white;
+}
+.output{
+    /* place-items: center;
+    display: grid; */
+    text-align: center;
+    align-items: center;
+    /* background-image: linear-gradient(70deg, #db5050, #db0abf, #3c9ecc); */
+    border-radius: 5px;
+    color:black;
+    height: auto;
+    border: 2px solid white;
+}
+.add{
+    background-color: blue;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
+.add:hover{
+    background-color: white;
+    color: black;
+}
+
+.del:hover{
+    background-color: white;
+    color: black;
+}
+.del{
+    outline: none;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.big{
+    display: grid;
+    place-items: center;
+}
+/* body{
+    display: grid;
+    place-items: center;
+} */
+h3{
+    /* font-variant: tabular-nums; */
+    font-family: Gill Sans MT;
+    color: white;
+    text-shadow: white;
+}
